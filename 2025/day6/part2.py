@@ -51,8 +51,6 @@ with open("input.txt") as f:
         int_matrices.append(matrix)
 print(int_matrices)
 sum=0
-res=0
-num=0
 for index,i in enumerate(int_matrices):
     if operators[index]=="*":
         res=1

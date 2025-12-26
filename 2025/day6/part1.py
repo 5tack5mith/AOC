@@ -22,4 +22,4 @@ for i,op in enumerate(operators):
         for j in range(0,r):
             s+=matrix[j][i]
         sum+=s
-print(sum,)
+print(sum)
